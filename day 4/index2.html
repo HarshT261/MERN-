@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORM HANDLING</title>
+</head>
+<body>
+    <div>
+        <form onsubmit="submitform(event)">
+            <lable>FIRST NAME :</lable>
+            <input type="text" name="firstname" onchange="fun1(event)"/><br><br>
+                <lable>SECOND NAME :</lable>
+                <input type="text" name="lastname"/><br><br>
+                <lable>AGE :</lable>
+                <input type="text" name="age"/><br><br>
+                <label>HOBBIES : </label><br><br>
+                <input type="checkbox" name="hobbies" value="web"/><label>WEB</label><br>
+                <input type="checkbox" name="hobbies" value="reading"/><label>READING</label><br>
+                <input type="checkbox" name="hobbies" value="sports"/><label>SPORTS</label><br><br>
+                <button onclick="submitform">submit</button>
+            </form>
+        </div>
+        <script src="hfdah.js"></script>
+</body>
+</html>
