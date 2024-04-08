@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        header{
+            height: 100px;
+            background-color: aliceblue;
+            font-size: 50px;
+text-align: center;
+        }
+        footer{
+            height: 400px;
+            background-color: yellowgreen;
+        }
+        img{
+            max-width : 330px;
+            max-height: 330px;
+        }
+        
+        .news{
+            background-color: yellow;
+            max-width: 400px;
+            padding: 24px;
+            margin: 40px auto;
+        }
+        #root{
+            display: grid;
+            grid-template-columns: 450px 450px 450px;
+        }
+    </style>
+    <title>NEWS APP</title>
+  </head>
+  <body>
+
+    <header>SamaChaar</header>
+    <main>
+      <div id="root"></div>
+    </main>
+    <footer></footer>
+    <script src="scr.js"></script>
+  </body>
+</html>
